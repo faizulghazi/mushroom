@@ -9,4 +9,5 @@ fig = px.line(mushroom_df, x="timestamp", y="temperature_C",
               title="Temperature Over Time")
 
 # Display in Streamlit
+
 st.plotly_chart(fig, use_container_width=True)
